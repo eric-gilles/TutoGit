@@ -1,0 +1,12 @@
+# Fichiers temporaires
+*~
+
+# Logs
+*.log
+
+# Fichiers de configuration
+*.conf
+
+# Fichiers de compilation
+*.o
+*.class
