@@ -47,7 +47,8 @@ Sans compte sur une de ces plateformes, vous ne pourrez pas utiliser Git de mani
 
 ## SSH 
 Avant de commencer à créer des projets, il faudrait établir un canal sécurisé d'authentification entre votre machine et le serveur distant.  
-Pour cela, ouvrez un terminal sur votre machine et générer la clé : faites Entrée à la demande `Enter the file` puis tapez 2 fois un mot de passe (passphrase)
+Pour cela, ouvrez un terminal sur votre machine et générer une clé SSH avec `ssh-keygen` dans le dossier `.ssh/`  
+Appuyez sur `Entrée` à la demande `Enter the file` puis tapez 2 fois un mot de passe (passphrase)
 
 <img src="ressources/keygen.png" width="75%" style="margin:auto;display:block;"/>
 
@@ -57,7 +58,7 @@ cd ~/.ssh
 ssh-keygen
 ```
 
-Copiez la clé :
+Ensuite, copiez la clé SSH :
 ```sh
 cat id_rsa.pub
 ```
